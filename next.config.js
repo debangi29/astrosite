@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/astrosite',  // Replace with your GitHub repository name
+  output: 'export', // Enables static export
+  basePath: '/astrosite', // Replace 'astrosite' with your GitHub repo name
+  trailingSlash: true, // Ensures proper routing
   images: {
-    domains: ['cloud.appwrite.io'], // Allow loading images from Appwrite
+    unoptimized: true, // Fix issues with Next.js image optimization on static export
   },
-  trailingSlash: true, // Ensures correct path handling for routing
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

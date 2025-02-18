@@ -30,7 +30,14 @@
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
+<<<<<<< HEAD
     "gh-pages": "^3.2.3" 
   },
    "homepage": "https://debangi29.github.io/Astro_site"
 }
+=======
+    "gh-pages": "^3.2.3"
+  },
+  "homepage": "https://debangi29.github.io/Astro_site" // Replace with your GitHub URL
+}
+>>>>>>> 8282fe3 (Update for GitHub Pages deployment)
